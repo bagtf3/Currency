@@ -1,5 +1,7 @@
 ##backtest.py
 ## will backtest currency data vs predictions
+## you must supply the predictions, however.
+## see sample_predicitons.csv and sample_master.csv
 
 import pandas as pd
 import csv
