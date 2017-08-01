@@ -1,3 +1,8 @@
+#### This is an early attempt at a machine learning script to predict currency prices. It uses the sign of the difference
+#### between multiple moving averages in a bootstrap-aggregated GLM approach. It works OK, but there are better methods out
+#### there, thus, use this with caution. You might lose all of your money. In fact, you should probably not use this
+#### method at all, but if you want, use this as a kernal to write and test your own ML currency bot. 
+
 library(data.table)
 library(quantmod)
 
